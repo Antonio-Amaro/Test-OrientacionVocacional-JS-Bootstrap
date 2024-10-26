@@ -1,0 +1,2733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Test de Kuder - Orientación Vocacional</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="#">Test de Kuder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#test">Test</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#areas">Áreas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#carreras">Carreras</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-dark py-5">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">
+                    <div class="text-center my-5">
+                        <h1 class="display-5 fw-bolder text-white mb-5">Encuentra la Carrera Perfecta para Ti</h1>
+                        <p class="lead text-white-50 mb-5">La orientación vocacional es una herramienta clave para
+                            adolescentes que comienzan a explorar su futuro profesional. ¡Descubre la carrera que
+                            realmente te apasiona y da el primer paso hacia tu mejor versión!</p>
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#test">¡Toma el Test!</a>
+                            <!-- <a class="btn btn-outline-light btn-lg px-4" href="#!">Ver Áreas</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Test orientación -->
+    <section id="test" class="bg-light py-5">
+        <div class="container px-5 my-5 px-5">
+
+            <div class="mb-5">
+                <h2 class="fw-bolder text-center">Test de Kuder | Orientación Vocacional</h2>
+                <p class="lead mb-0">El test de Kuder te permite explorar diferentes áreas profesionales y ver cuáles se
+                    alinean mejor con tus gustos y capacidades. Al obtener un perfil claro de tus preferencias, puedes
+                    identificar opciones de estudio y trabajo que te motiven y se adapten a tu forma de ser. Este
+                    proceso no solo te ayuda a tomar decisiones más informadas, sino que también aumenta la probabilidad
+                    de que elijas una carrera que te brinde satisfacción y éxito en el futuro.</p>
+            </div>
+            <div class="mb-5">
+                <h2 class="fw-bolder text-center">Instrucciones</h2>
+                <p class="lead mb-0">A continuación, te presentaremos una lista de actividades y ocupaciones. Responde a
+                    cada una según tu grado de gusto o desagrado. Es posible que algunas actividades no las hayas
+                    realizado antes, así que simplemente responde pensando en si te gustaría o no realizarlas. Recuerda:
+                    no hay respuestas erróneas. Tómate el tiempo que necesites para responder.</p>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-12">
+                    <div class="mb-4">
+                        <div class="text-center">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3 p-3"><i
+                                    class="bi-journal-check"></i>
+                            </div>
+                            <p class="lead mb-5 fw-bold">Lista de Actividades</p>
+                        </div>
+                    </div>
+                    <form id="vocationalTest">
+                        <div class="d-md-flex justify-content-evenly">
+                            <div>
+                                <!-- Pregunta 1 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">1. Coleccionar diferentes muestras de minerales.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p1"
+                                                id="p1-1" value="1">
+                                            <label for="p1-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p1"
+                                                id="p1-2" value="2">
+                                            <label for="p1-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p1"
+                                                id="p1-3" value="3">
+                                            <label for="p1-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p1"
+                                                id="p1-4" value="4">
+                                            <label for="p1-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p1"
+                                                id="p1-5" value="5">
+                                            <label for="p1-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 2 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">2. Trabajar en una fábrica como mecánico.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p2"
+                                                id="p2-1" value="1">
+                                            <label for="p2-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p2"
+                                                id="p2-2" value="2">
+                                            <label for="p2-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p2"
+                                                id="p2-3" value="3">
+                                            <label for="p2-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p2"
+                                                id="p2-4" value="4">
+                                            <label for="p2-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p2"
+                                                id="p2-5" value="5">
+                                            <label for="p2-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 3 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">3. Determinar el "Cálculo" de precios de nuevos
+                                        productos.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p3"
+                                                id="p3-1" value="1">
+                                            <label for="p3-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p3"
+                                                id="p3-2" value="2">
+                                            <label for="p3-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p3"
+                                                id="p3-3" value="3">
+                                            <label for="p3-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p3"
+                                                id="p3-4" value="4">
+                                            <label for="p3-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p3"
+                                                id="p3-5" value="5">
+                                            <label for="p3-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 4 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">4. Seguir un curso de Biología.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p4"
+                                                id="p4-1" value="1">
+                                            <label for="p4-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p4"
+                                                id="p4-2" value="2">
+                                            <label for="p4-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p4"
+                                                id="p4-3" value="3">
+                                            <label for="p4-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p4"
+                                                id="p4-4" value="4">
+                                            <label for="p4-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p4"
+                                                id="p4-5" value="5">
+                                            <label for="p4-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 5 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">5. Ser un experto en propaganda comercial o Publicidad.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p5"
+                                                id="p5-1" value="1">
+                                            <label for="p5-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p5"
+                                                id="p5-2" value="2">
+                                            <label for="p5-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p5"
+                                                id="p5-3" value="3">
+                                            <label for="p5-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p5"
+                                                id="p5-4" value="4">
+                                            <label for="p5-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p5"
+                                                id="p5-5" value="5">
+                                            <label for="p5-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 6 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">6. Trabajar como Técnico Agrícola en una cooperativa.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p6"
+                                                id="p6-1" value="1">
+                                            <label for="p6-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p6"
+                                                id="p6-2" value="2">
+                                            <label for="p6-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p6"
+                                                id="p6-3" value="3">
+                                            <label for="p6-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p6"
+                                                id="p6-4" value="4">
+                                            <label for="p6-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p6"
+                                                id="p6-5" value="5">
+                                            <label for="p6-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 7 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">7. Desarmar un juguete electrónico malogrado e intentar
+                                        arreglarlo.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p7"
+                                                id="p7-1" value="1">
+                                            <label for="p7-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p7"
+                                                id="p7-2" value="2">
+                                            <label for="p7-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p7"
+                                                id="p7-3" value="3">
+                                            <label for="p7-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p7"
+                                                id="p7-4" value="4">
+                                            <label for="p7-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p7"
+                                                id="p7-5" value="5">
+                                            <label for="p7-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 8 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">8. Organizar los cálculos y resultados de una encuesta.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p8"
+                                                id="p8-1" value="1">
+                                            <label for="p8-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p8"
+                                                id="p8-2" value="2">
+                                            <label for="p8-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p8"
+                                                id="p8-3" value="3">
+                                            <label for="p8-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p8"
+                                                id="p8-4" value="4">
+                                            <label for="p8-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p8"
+                                                id="p8-5" value="5">
+                                            <label for="p8-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 9 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">9. Investigar las causas de las enfermedades o plagas de las
+                                        plantas.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p9"
+                                                id="p9-1" value="1">
+                                            <label for="p9-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p9"
+                                                id="p9-2" value="2">
+                                            <label for="p9-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p9"
+                                                id="p9-3" value="3">
+                                            <label for="p9-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p9"
+                                                id="p9-4" value="4">
+                                            <label for="p9-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p9"
+                                                id="p9-5" value="5">
+                                            <label for="p9-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 10 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">10. Reparar aparatos domésticos.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p10"
+                                                id="p10-1" value="1">
+                                            <label for="p10-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p10"
+                                                id="p10-2" value="2">
+                                            <label for="p10-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p10"
+                                                id="p10-3" value="3">
+                                            <label for="p10-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p10"
+                                                id="p10-4" value="4">
+                                            <label for="p10-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p10"
+                                                id="p10-5" value="5">
+                                            <label for="p10-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 11 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">11. Hacer operaciones con una máquina calculadora.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p11"
+                                                id="p11-1" value="1">
+                                            <label for="p11-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p11"
+                                                id="p11-2" value="2">
+                                            <label for="p11-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p11"
+                                                id="p11-3" value="3">
+                                            <label for="p11-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p11"
+                                                id="p11-4" value="4">
+                                            <label for="p11-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p11"
+                                                id="p11-5" value="5">
+                                            <label for="p11-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 12 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">12. Investigar una nueva información de un hecho histórico
+                                        famoso.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p12"
+                                                id="p12-1" value="1">
+                                            <label for="p12-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p12"
+                                                id="p12-2" value="2">
+                                            <label for="p12-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p12"
+                                                id="p12-3" value="3">
+                                            <label for="p12-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p12"
+                                                id="p12-4" value="4">
+                                            <label for="p12-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p12"
+                                                id="p12-5" value="5">
+                                            <label for="p12-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 13 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">13. Dirigir campañas por la defensa de los Derechos
+                                        Humanos.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p13"
+                                                id="p13-1" value="1">
+                                            <label for="p13-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p13"
+                                                id="p13-2" value="2">
+                                            <label for="p13-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p13"
+                                                id="p13-3" value="3">
+                                            <label for="p13-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p13"
+                                                id="p13-4" value="4">
+                                            <label for="p13-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p13"
+                                                id="p13-5" value="5">
+                                            <label for="p13-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 14 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">14. Estudiar las costumbres de la población de otros
+                                        países.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p14"
+                                                id="p14-1" value="1">
+                                            <label for="p14-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p14"
+                                                id="p14-2" value="2">
+                                            <label for="p14-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p14"
+                                                id="p14-3" value="3">
+                                            <label for="p14-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p14"
+                                                id="p14-4" value="4">
+                                            <label for="p14-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p14"
+                                                id="p14-5" value="5">
+                                            <label for="p14-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 15 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">15. Ser Ingeniero Mecánico o Electrónico.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p15"
+                                                id="p15-1" value="1">
+                                            <label for="p15-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p15"
+                                                id="p15-2" value="2">
+                                            <label for="p15-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p15"
+                                                id="p15-3" value="3">
+                                            <label for="p15-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p15"
+                                                id="p15-4" value="4">
+                                            <label for="p15-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p15"
+                                                id="p15-5" value="5">
+                                            <label for="p15-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 16 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">16. Llevar libros de Contabilidad de un negocio.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p16"
+                                                id="p16-1" value="1">
+                                            <label for="p16-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p16"
+                                                id="p16-2" value="2">
+                                            <label for="p16-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p16"
+                                                id="p16-3" value="3">
+                                            <label for="p16-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p16"
+                                                id="p16-4" value="4">
+                                            <label for="p16-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p16"
+                                                id="p16-5" value="5">
+                                            <label for="p16-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 17 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">17. Hacer el análisis clínico de un producto
+                                        farmacéutico.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p17"
+                                                id="p17-1" value="1">
+                                            <label for="p17-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p17"
+                                                id="p17-2" value="2">
+                                            <label for="p17-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p17"
+                                                id="p17-3" value="3">
+                                            <label for="p17-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p17"
+                                                id="p17-4" value="4">
+                                            <label for="p17-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p17"
+                                                id="p17-5" value="5">
+                                            <label for="p17-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 18 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">18. Encargarme de resolver problemas de personal de una
+                                        empresa.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p18"
+                                                id="p18-1" value="1">
+                                            <label for="p18-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p18"
+                                                id="p18-2" value="2">
+                                            <label for="p18-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p18"
+                                                id="p18-3" value="3">
+                                            <label for="p18-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p18"
+                                                id="p18-4" value="4">
+                                            <label for="p18-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p18"
+                                                id="p18-5" value="5">
+                                            <label for="p18-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 19 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">19. Trabajar en la pesca en alta mar.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p19"
+                                                id="p19-1" value="1">
+                                            <label for="p19-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p19"
+                                                id="p19-2" value="2">
+                                            <label for="p19-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p19"
+                                                id="p19-3" value="3">
+                                            <label for="p19-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p19"
+                                                id="p19-4" value="4">
+                                            <label for="p19-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p19"
+                                                id="p19-5" value="5">
+                                            <label for="p19-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 20 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">20. Visitar un taller de reparaciones de aviones.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p20"
+                                                id="p20-1" value="1">
+                                            <label for="p20-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p20"
+                                                id="p20-2" value="2">
+                                            <label for="p20-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p20"
+                                                id="p20-3" value="3">
+                                            <label for="p20-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p20"
+                                                id="p20-4" value="4">
+                                            <label for="p20-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p20"
+                                                id="p20-5" value="5">
+                                            <label for="p20-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 21 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">21. Ser un profesor de Matemáticas.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p21"
+                                                id="p21-1" value="1">
+                                            <label for="p21-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p21"
+                                                id="p21-2" value="2">
+                                            <label for="p21-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p21"
+                                                id="p21-3" value="3">
+                                            <label for="p21-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p21"
+                                                id="p21-4" value="4">
+                                            <label for="p21-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p21"
+                                                id="p21-5" value="5">
+                                            <label for="p21-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 22 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">22. Trabajar en el perfeccionamiento de un nuevo metal.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p22"
+                                                id="p22-1" value="1">
+                                            <label for="p22-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p22"
+                                                id="p22-2" value="2">
+                                            <label for="p22-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p22"
+                                                id="p22-3" value="3">
+                                            <label for="p22-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p22"
+                                                id="p22-4" value="4">
+                                            <label for="p22-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p22"
+                                                id="p22-5" value="5">
+                                            <label for="p22-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 23 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">23. Supervisar las ventas en un Centro Comercial.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p23"
+                                                id="p23-1" value="1">
+                                            <label for="p23-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p23"
+                                                id="p23-2" value="2">
+                                            <label for="p23-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p23"
+                                                id="p23-3" value="3">
+                                            <label for="p23-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p23"
+                                                id="p23-4" value="4">
+                                            <label for="p23-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p23"
+                                                id="p23-5" value="5">
+                                            <label for="p23-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 24 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">24. Supervisar el trabajo de los obreros en una plantación de
+                                        caña.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p24"
+                                                id="p24-1" value="1">
+                                            <label for="p24-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p24"
+                                                id="p24-2" value="2">
+                                            <label for="p24-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p24"
+                                                id="p24-3" value="3">
+                                            <label for="p24-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p24"
+                                                id="p24-4" value="4">
+                                            <label for="p24-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p24"
+                                                id="p24-5" value="5">
+                                            <label for="p24-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 25 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">25. Reparar o retocar los muebles gastados.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p25"
+                                                id="p25-1" value="1">
+                                            <label for="p25-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p25"
+                                                id="p25-2" value="2">
+                                            <label for="p25-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p25"
+                                                id="p25-3" value="3">
+                                            <label for="p25-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p25"
+                                                id="p25-4" value="4">
+                                            <label for="p25-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p25"
+                                                id="p25-5" value="5">
+                                            <label for="p25-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 26 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">26. Realizar trabajos que requieran operaciones aritméticas
+                                        mentales.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p26"
+                                                id="p26-1" value="1">
+                                            <label for="p26-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p26"
+                                                id="p26-2" value="2">
+                                            <label for="p26-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p26"
+                                                id="p26-3" value="3">
+                                            <label for="p26-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p26"
+                                                id="p26-4" value="4">
+                                            <label for="p26-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p26"
+                                                id="p26-5" value="5">
+                                            <label for="p26-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 27 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">27. Investigar las causas de las enfermedades mentales.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p27"
+                                                id="p27-1" value="1">
+                                            <label for="p27-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p27"
+                                                id="p27-2" value="2">
+                                            <label for="p27-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p27"
+                                                id="p27-3" value="3">
+                                            <label for="p27-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p27"
+                                                id="p27-4" value="4">
+                                            <label for="p27-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p27"
+                                                id="p27-5" value="5">
+                                            <label for="p27-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 28 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">28. Exponer en un auditorio sobre "El Arte de Convencer a la
+                                        Gente"</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p28"
+                                                id="p28-1" value="1">
+                                            <label for="p28-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p28"
+                                                id="p28-2" value="2">
+                                            <label for="p28-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p28"
+                                                id="p28-3" value="3">
+                                            <label for="p28-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p28"
+                                                id="p28-4" value="4">
+                                            <label for="p28-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p28"
+                                                id="p28-5" value="5">
+                                            <label for="p28-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 29 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">29. Seguir un curso de Dibujo Lineal.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p29"
+                                                id="p29-1" value="1">
+                                            <label for="p29-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p29"
+                                                id="p29-2" value="2">
+                                            <label for="p29-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p29"
+                                                id="p29-3" value="3">
+                                            <label for="p29-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p29"
+                                                id="p29-4" value="4">
+                                            <label for="p29-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p29"
+                                                id="p29-5" value="5">
+                                            <label for="p29-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <!-- Pregunta 30 -->
+                                <div class="mb-3">
+                                    <label class="mb-1">30. Enseñar castellano.</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p30"
+                                                id="p30-1" value="1">
+                                            <label for="p30-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p30"
+                                                id="p30-2" value="2">
+                                            <label for="p30-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p30"
+                                                id="p30-3" value="3">
+                                            <label for="p30-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p30"
+                                                id="p30-4" value="4">
+                                            <label for="p30-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" data-section="libre" type="radio" name="p30"
+                                                id="p30-5" value="5">
+                                            <label for="p30-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 31 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">31. Ser Pianista</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p31" id="p31-1"
+                                                value="1">
+                                            <label for="p31-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p31" id="p31-2"
+                                                value="2">
+                                            <label for="p31-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p31" id="p31-3"
+                                                value="3">
+                                            <label for="p31-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p31" id="p31-4"
+                                                value="4">
+                                            <label for="p31-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p31" id="p31-5"
+                                                value="5">
+                                            <label for="p31-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 32 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">32. Trabajar con enfermeros o personas necesitadas</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p32" id="p32-1"
+                                                value="1">
+                                            <label for="p32-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p32" id="p32-2"
+                                                value="2">
+                                            <label for="p32-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p32" id="p32-3"
+                                                value="3">
+                                            <label for="p32-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p32" id="p32-4"
+                                                value="4">
+                                            <label for="p32-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p32" id="p32-5"
+                                                value="5">
+                                            <label for="p32-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 33 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">33. Pagar los cheques al público en un Banco</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p33" id="p33-1"
+                                                value="1">
+                                            <label for="p33-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p33" id="p33-2"
+                                                value="2">
+                                            <label for="p33-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p33" id="p33-3"
+                                                value="3">
+                                            <label for="p33-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p33" id="p33-4"
+                                                value="4">
+                                            <label for="p33-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p33" id="p33-5"
+                                                value="5">
+                                            <label for="p33-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 34 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">34. Ser un experto en fotografía</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p34" id="p34-1"
+                                                value="1">
+                                            <label for="p34-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p34" id="p34-2"
+                                                value="2">
+                                            <label for="p34-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p34" id="p34-3"
+                                                value="3">
+                                            <label for="p34-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p34" id="p34-4"
+                                                value="4">
+                                            <label for="p34-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p34" id="p34-5"
+                                                value="5">
+                                            <label for="p34-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 35 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">35. Escribir novelas</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p35" id="p35-1"
+                                                value="1">
+                                            <label for="p35-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p35" id="p35-2"
+                                                value="2">
+                                            <label for="p35-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p35" id="p35-3"
+                                                value="3">
+                                            <label for="p35-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p35" id="p35-4"
+                                                value="4">
+                                            <label for="p35-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p35" id="p35-5"
+                                                value="5">
+                                            <label for="p35-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 36 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">36. Escribir una comedia musical</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p36" id="p36-1"
+                                                value="1">
+                                            <label for="p36-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p36" id="p36-2"
+                                                value="2">
+                                            <label for="p36-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p36" id="p36-3"
+                                                value="3">
+                                            <label for="p36-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p36" id="p36-4"
+                                                value="4">
+                                            <label for="p36-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p36" id="p36-5"
+                                                value="5">
+                                            <label for="p36-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 37 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">37. Colaborar en un centro de recreación</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p37" id="p37-1"
+                                                value="1">
+                                            <label for="p37-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p37" id="p37-2"
+                                                value="2">
+                                            <label for="p37-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p37" id="p37-3"
+                                                value="3">
+                                            <label for="p37-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p37" id="p37-4"
+                                                value="4">
+                                            <label for="p37-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p37" id="p37-5"
+                                                value="5">
+                                            <label for="p37-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 38 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">38. Recibir las llamadas telefónicas en una oficina</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p38" id="p38-1"
+                                                value="1">
+                                            <label for="p38-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p38" id="p38-2"
+                                                value="2">
+                                            <label for="p38-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p38" id="p38-3"
+                                                value="3">
+                                            <label for="p38-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p38" id="p38-4"
+                                                value="4">
+                                            <label for="p38-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p38" id="p38-5"
+                                                value="5">
+                                            <label for="p38-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 39 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">39. Dibujar o pintar una escena importante</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p39" id="p39-1"
+                                                value="1">
+                                            <label for="p39-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p39" id="p39-2"
+                                                value="2">
+                                            <label for="p39-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p39" id="p39-3"
+                                                value="3">
+                                            <label for="p39-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p39" id="p39-4"
+                                                value="4">
+                                            <label for="p39-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p39" id="p39-5"
+                                                value="5">
+                                            <label for="p39-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 40 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">40. Escribir artículos o editoriales para un periódico</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p40" id="p40-1"
+                                                value="1">
+                                            <label for="p40-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p40" id="p40-2"
+                                                value="2">
+                                            <label for="p40-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p40" id="p40-3"
+                                                value="3">
+                                            <label for="p40-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p40" id="p40-4"
+                                                value="4">
+                                            <label for="p40-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p40" id="p40-5"
+                                                value="5">
+                                            <label for="p40-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 41 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">41. Dibujar o pintar una escena importante</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p41" id="p41-1"
+                                                value="1">
+                                            <label for="p41-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p41" id="p41-2"
+                                                value="2">
+                                            <label for="p41-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p41" id="p41-3"
+                                                value="3">
+                                            <label for="p41-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p41" id="p41-4"
+                                                value="4">
+                                            <label for="p41-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p41" id="p41-5"
+                                                value="5">
+                                            <label for="p41-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 42 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">42. Escribir artículos o editoriales para un periódico</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p42" id="p42-1"
+                                                value="1">
+                                            <label for="p42-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p42" id="p42-2"
+                                                value="2">
+                                            <label for="p42-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p42" id="p42-3"
+                                                value="3">
+                                            <label for="p42-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p42" id="p42-4"
+                                                value="4">
+                                            <label for="p42-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p42" id="p42-5"
+                                                value="5">
+                                            <label for="p42-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 43 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">43. Ser comentarista de Música en la radio o TV</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p43" id="p43-1"
+                                                value="1">
+                                            <label for="p43-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p43" id="p43-2"
+                                                value="2">
+                                            <label for="p43-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p43" id="p43-3"
+                                                value="3">
+                                            <label for="p43-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p43" id="p43-4"
+                                                value="4">
+                                            <label for="p43-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p43" id="p43-5"
+                                                value="5">
+                                            <label for="p43-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 44 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">44. Orientar a la gente joven en la elección de una
+                                        ocupación</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p44" id="p44-1"
+                                                value="1">
+                                            <label for="p44-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p44" id="p44-2"
+                                                value="2">
+                                            <label for="p44-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p44" id="p44-3"
+                                                value="3">
+                                            <label for="p44-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p44" id="p44-4"
+                                                value="4">
+                                            <label for="p44-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p44" id="p44-5"
+                                                value="5">
+                                            <label for="p44-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 45 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">45. Clasificar los documentos en una oficina</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p45" id="p45-1"
+                                                value="1">
+                                            <label for="p45-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p45" id="p45-2"
+                                                value="2">
+                                            <label for="p45-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p45" id="p45-3"
+                                                value="3">
+                                            <label for="p45-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p45" id="p45-4"
+                                                value="4">
+                                            <label for="p45-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p45" id="p45-5"
+                                                value="5">
+                                            <label for="p45-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 46 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">46. Ser profesor de Arquitectura</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p46" id="p46-1"
+                                                value="1">
+                                            <label for="p46-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p46" id="p46-2"
+                                                value="2">
+                                            <label for="p46-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p46" id="p46-3"
+                                                value="3">
+                                            <label for="p46-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p46" id="p46-4"
+                                                value="4">
+                                            <label for="p46-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p46" id="p46-5"
+                                                value="5">
+                                            <label for="p46-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 47 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">47. Estudiar Composición Literaria</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p47" id="p47-1"
+                                                value="1">
+                                            <label for="p47-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p47" id="p47-2"
+                                                value="2">
+                                            <label for="p47-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p47" id="p47-3"
+                                                value="3">
+                                            <label for="p47-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p47" id="p47-4"
+                                                value="4">
+                                            <label for="p47-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p47" id="p47-5"
+                                                value="5">
+                                            <label for="p47-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 48 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">48. Trabajar en un establecimiento de discos o instrumentos
+                                        musicales</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p48" id="p48-1"
+                                                value="1">
+                                            <label for="p48-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p48" id="p48-2"
+                                                value="2">
+                                            <label for="p48-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p48" id="p48-3"
+                                                value="3">
+                                            <label for="p48-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p48" id="p48-4"
+                                                value="4">
+                                            <label for="p48-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p48" id="p48-5"
+                                                value="5">
+                                            <label for="p48-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 49 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">49. Trabajar en un albergue para niños huérfanos</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p49" id="p49-1"
+                                                value="1">
+                                            <label for="p49-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p49" id="p49-2"
+                                                value="2">
+                                            <label for="p49-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p49" id="p49-3"
+                                                value="3">
+                                            <label for="p49-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p49" id="p49-4"
+                                                value="4">
+                                            <label for="p49-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p49" id="p49-5"
+                                                value="5">
+                                            <label for="p49-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 50 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">50. Corregir los errores mecanográficos de un informe</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p50" id="p50-1"
+                                                value="1">
+                                            <label for="p50-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p50" id="p50-2"
+                                                value="2">
+                                            <label for="p50-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p50" id="p50-3"
+                                                value="3">
+                                            <label for="p50-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p50" id="p50-4"
+                                                value="4">
+                                            <label for="p50-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p50" id="p50-5"
+                                                value="5">
+                                            <label for="p50-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 51 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">51. Hacer una escultura de una persona famosa</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p51" id="p51-1"
+                                                value="1">
+                                            <label for="p51-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p51" id="p51-2"
+                                                value="2">
+                                            <label for="p51-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p51" id="p51-3"
+                                                value="3">
+                                            <label for="p51-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p51" id="p51-4"
+                                                value="4">
+                                            <label for="p51-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p51" id="p51-5"
+                                                value="5">
+                                            <label for="p51-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 52 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">52. Ser periodista</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p52" id="p52-1"
+                                                value="1">
+                                            <label for="p52-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p52" id="p52-2"
+                                                value="2">
+                                            <label for="p52-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p52" id="p52-3"
+                                                value="3">
+                                            <label for="p52-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p52" id="p52-4"
+                                                value="4">
+                                            <label for="p52-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p52" id="p52-5"
+                                                value="5">
+                                            <label for="p52-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 53 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">53. Ser profesor de música</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p53" id="p53-1"
+                                                value="1">
+                                            <label for="p53-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p53" id="p53-2"
+                                                value="2">
+                                            <label for="p53-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p53" id="p53-3"
+                                                value="3">
+                                            <label for="p53-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p53" id="p53-4"
+                                                value="4">
+                                            <label for="p53-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p53" id="p53-5"
+                                                value="5">
+                                            <label for="p53-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 54 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">54. Ayudar en una Enfermería</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p54" id="p54-1"
+                                                value="1">
+                                            <label for="p54-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p54" id="p54-2"
+                                                value="2">
+                                            <label for="p54-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p54" id="p54-3"
+                                                value="3">
+                                            <label for="p54-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p54" id="p54-4"
+                                                value="4">
+                                            <label for="p54-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p54" id="p54-5"
+                                                value="5">
+                                            <label for="p54-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 55 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">55. Seguir un curso de Redacción Comercial</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p55" id="p55-1"
+                                                value="1">
+                                            <label for="p55-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p55" id="p55-2"
+                                                value="2">
+                                            <label for="p55-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p55" id="p55-3"
+                                                value="3">
+                                            <label for="p55-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p55" id="p55-4"
+                                                value="4">
+                                            <label for="p55-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p55" id="p55-5"
+                                                value="5">
+                                            <label for="p55-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 56 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">56. Diseñar y decorar nuevos ambientes</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p56" id="p56-1"
+                                                value="1">
+                                            <label for="p56-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p56" id="p56-2"
+                                                value="2">
+                                            <label for="p56-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p56" id="p56-3"
+                                                value="3">
+                                            <label for="p56-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p56" id="p56-4"
+                                                value="4">
+                                            <label for="p56-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p56" id="p56-5"
+                                                value="5">
+                                            <label for="p56-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 57 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">57. Ser escritor</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p57" id="p57-1"
+                                                value="1">
+                                            <label for="p57-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p57" id="p57-2"
+                                                value="2">
+                                            <label for="p57-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p57" id="p57-3"
+                                                value="3">
+                                            <label for="p57-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p57" id="p57-4"
+                                                value="4">
+                                            <label for="p57-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p57" id="p57-5"
+                                                value="5">
+                                            <label for="p57-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 58 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">58. Ser director de una orquesta</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p58" id="p58-1"
+                                                value="1">
+                                            <label for="p58-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p58" id="p58-2"
+                                                value="2">
+                                            <label for="p58-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p58" id="p58-3"
+                                                value="3">
+                                            <label for="p58-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p58" id="p58-4"
+                                                value="4">
+                                            <label for="p58-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p58" id="p58-5"
+                                                value="5">
+                                            <label for="p58-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 59 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">59. Ser Trabajador Social o Asistente Social</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p59" id="p59-1"
+                                                value="1">
+                                            <label for="p59-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p59" id="p59-2"
+                                                value="2">
+                                            <label for="p59-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p59" id="p59-3"
+                                                value="3">
+                                            <label for="p59-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p59" id="p59-4"
+                                                value="4">
+                                            <label for="p59-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p59" id="p59-5"
+                                                value="5">
+                                            <label for="p59-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pregunta 60 -->
+                                <div class="mb-2">
+                                    <label class="mb-1">60. Ser secretario(a) de una institución</label>
+                                    <div class="radios">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p60" id="p60-1"
+                                                value="1">
+                                            <label for="p60-1">Me desagrada mucho</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p60" id="p60-2"
+                                                value="2">
+                                            <label for="p60-2">No me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p60" id="p60-3"
+                                                value="3">
+                                            <label for="p60-3">Me es indiferente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p60" id="p60-4"
+                                                value="4">
+                                            <label for="p60-4">Me gusta</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="p60" id="p60-5"
+                                                value="5">
+                                            <label for="p60-5">Me gusta mucho</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" id="btn-enviar" class="btn btn-primary mt-5 mb-2 w-auto fs-5">Calificar Test</button>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <p id="mensaje-error" class="bg-danger text-center text-light fw-semibold fs-5 py-1 px-3 w-auto d-none">Asegúrate de responder a todas las preguntas</p>
+                        </div>
+                </div>
+
+                <div id="resultado-contenedor" class="d-none text-center my-5 col-lg-9">
+                    <h2 class="fw-bolder mb-5">Tu puntaje obtenido en cada área fue de:</h2>
+                    <div class="d-flex flex-wrap justify-content-center gap-3 mb-3">
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex flex-column text-center">
+                                    <div class="flex-shrink-0"><i class="bi bi-tree-fill text-primary fs-3"></i></div>
+                                    <div>
+                                        <h3 id="puntos-libre" class="mb-1">10</h3>
+                                        <p id="label-libre" class="fs-5">Libre</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex flex-column text-center">
+                                    <div class="flex-shrink-0"><i class="bi bi-tools text-primary fs-3"></i></div>
+                                    <div>
+                                        <h3 id="puntos-mecanico" class="mb-1">10</h3>
+                                        <p id="label-mecanico" class="fs-5">Mecánica</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex flex-column text-center">
+                                    <div class="flex-shrink-0"><i class="bi bi-calculator-fill text-primary fs-3"></i>
+                                    </div>
+                                    <div>
+                                        <h3 id="puntos-calculo" class="mb-1">10</h3>
+                                        <p id="label-calculo" class="fs-5">Cálculo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex flex-column text-center">
+                                    <div class="flex-shrink-0"><i class="bi bi-search text-primary fs-3"></i></div>
+                                    <div>
+                                        <h3 id="puntos-cientifico" class="mb-1">10</h3>
+                                        <p id="label-cientifico" class="fs-5">Científica</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex flex-column text-center">
+                                    <div class="flex-shrink-0"><i class="bi bi-briefcase-fill text-primary fs-3"></i>
+                                    </div>
+                                    <div>
+                                        <h3 id="puntos-persuasivo" class="mb-1">10</h3>
+                                        <p id="label-persuasivo" class="fs-5">Persuasiva</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex flex-column text-center">
+                                    <div class="flex-shrink-0"><i class="bi bi-brush text-primary fs-3"></i></div>
+                                    <div>
+                                        <h3 id="puntos-artistico" class="mb-1">10</h3>
+                                        <p id="label-artistico" class="fs-5">Artística</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex flex-column text-center">
+                                    <div class="flex-shrink-0"><i class="bi bi-book text-primary fs-3"></i></div>
+                                    <div>
+                                        <h3 id="puntos-literario" class="mb-1">10</h3>
+                                        <p id="label-literario" class="fs-5">Literaria</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex flex-column text-center">
+                                    <div class="flex-shrink-0"><i class="bi bi-music-note-list text-primary fs-3"></i>
+                                    </div>
+                                    <div>
+                                        <h3 id="puntos-musical" class="mb-1">10</h3>
+                                        <p id="label-musical" class="fs-5">Musical</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex flex-column text-center">
+                                    <div class="flex-shrink-0"><i class="bi bi-heart-fill text-primary fs-3"></i></div>
+                                    <div>
+                                        <h3 id="puntos-servicioSocial" class="mb-1">10</h3>
+                                        <p id="label-servicioSocial" class="fs-5">Social</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex flex-column text-center">
+                                    <div class="flex-shrink-0"><i class="bi bi-laptop text-primary fs-3"></i></div>
+                                    <div>
+                                        <h3 id="puntos-oficina" class="mb-1">10</h3>
+                                        <p id="label-oficina" class="fs-5">Cálculo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lead mb-3 fw-normal"> El puntaje más alto en cierta área indica una mayor afinidad hacia ese tipo de carreras, si tienes puntajes similares en más de un área podría indicar una posibilidad más amplia de elección.</p>
+                    <p class="lead mb-0 fw-normal"> Abajo podrás comparar tu puntaje con los puntajes de referencia para cada área y así obtener una idea de las áreas que más se acoplan a tus intereses, según los resultados del test.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Sección de áreas-->
+    <section id="areas" class="py-5 border-bottom">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-3 mb-5 mb-lg-3">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi-tree"></i></div>
+                    <h2 class="h4 fw-bolder">Área de Aire Libre</h2>
+                    <p>A las personas que destacan en esta área les gusta estar al aire libre y participar en
+                        actividades físicas o relacionadas con la naturaleza. Disfrutan del trabajo en entornos abiertos
+                        y del contacto con la vida silvestre o actividades al aire libre.</p>
+                    <a class="text-decoration-none" href="#carreras-libre">
+                        Ver carreras
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-5 mb-lg-3">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi-tools"></i></i>
+                    </div>
+                    <h2 class="h4 fw-bolder">Área Mecánica</h2>
+                    <p>En esta área disfrutan de construir, reparar y trabajar con máquinas o herramientas. Les atraen
+                        las actividades que involucran destrezas manuales y disfrutan desarmando y armando objetos para
+                        entender cómo funcionan. </p>
+                    <a class="text-decoration-none" href="#carreras-mecanica">
+                        Ver carreras
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-5 mb-lg-3">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                            class="bi-calculator-fill"></i></i>
+                    </div>
+                    <h2 class="h4 fw-bolder">Área de Cálculo</h2>
+                    <p>Los interesados en esta área disfrutan trabajar con números, resolver problemas matemáticos y
+                        utilizar el razonamiento lógico. Se sienten cómodos analizando datos y buscando soluciones
+                        precisas.</p>
+                    <a class="text-decoration-none" href="#carreras-calculo">
+                        Ver carreras
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-5 mb-lg-3">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi-search"></i>
+                    </div>
+                    <h2 class="h4 fw-bolder">Área Científica</h2>
+                    <p>En esta área disfrutan de investigar, resolver problemas y entender cómo funciona el mundo a
+                        través de la ciencia. Les interesan los experimentos, el análisis de datos y las teorías
+                        científicas. </p>
+                    <a class="text-decoration-none" href="#carreras-cientifica">
+                        Ver carreras
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-5 mb-lg-3">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                            class="bi-briefcase-fill"></i>
+                    </div>
+                    <h2 class="h4 fw-bolder">Área Persuasiva</h2>
+                    <p>Las personas que destacan en esta área disfrutan de actividades donde pueden influir en los
+                        demás, liderar equipos, tomar decisiones y convencer a otros. Les atraen situaciones donde
+                        pueden ejercer control o manejar proyectos.</p>
+                    <a class="text-decoration-none" href="#carreras-persuasiva">
+                        Ver carreras
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-5 mb-lg-3">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi-brush"></i>
+                    </div>
+                    <h2 class="h4 fw-bolder">Área Artística</h2>
+                    <p>Los interesados en esta área disfrutan de actividades creativas, expresivas y originales. Suelen
+                        estar interesados en las artes visuales, la música, el teatro, la escritura o el diseño, y
+                        buscan formas de expresar sus ideas de manera única.</p>
+                    <a class="text-decoration-none" href="#carreras-artistica">
+                        Ver carreras
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-5 mb-lg-3">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi-book"></i>
+                    </div>
+                    <h2 class="h4 fw-bolder">Área Literaria</h2>
+                    <p>Las personas interesadas en esta área disfrutan de actividades que implican el uso del lenguaje,
+                        ya sea de manera oral o escrita. Les gusta leer, escribir y comunicarse con otras personas, y
+                        pueden ser buenos en argumentar o debatir.</p>
+                    <a class="text-decoration-none" href="#carreras-literaria">
+                        Ver carreras
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-5 mb-lg-3">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                            class="bi-music-note-list"></i>
+                    </div>
+                    <h2 class="h4 fw-bolder">Área Musical</h2>
+                    <p>Los que se interesan en esta área tienen una inclinación por la música y disfrutan de tocar
+                        instrumentos, cantar, componer o simplemente escuchar música. Tienden a ser creativos y
+                        sensibles al sonido.</p>
+                    <a class="text-decoration-none" href="#carreras-musical">
+                        Ver carreras
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-5 mb-lg-3">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi-heart-fill"></i>
+                    </div>
+                    <h2 class="h4 fw-bolder">Área Social</h2>
+                    <p>Los que sobresalen en esta área les gusta ayudar a los demás y se sienten motivados por mejorar
+                        la vida de las personas. Prefieren actividades en las que puedan cuidar, enseñar o apoyar a los
+                        demás.</p>
+                    <a class="text-decoration-none" href="#carreras-social">
+                        Ver carreras
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 mb-5 mb-lg-3">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi-laptop"></i>
+                    </div>
+                    <h2 class="h4 fw-bolder">Área de Oficina</h2>
+                    <p>Los que tienen afinidad por esta área disfrutan de actividades que implican organización y
+                        gestión de información, como trabajar con archivos, documentos o sistemas. Prefieren las
+                        actividades administrativas que requieren orden y precisión.</p>
+                    <a class="text-decoration-none" href="#carreras-oficina">
+                        Ver carreras
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Listado de carreras -->
+    <section id="carreras" class="bg-light py-5 border-bottom">
+        <div class="container px-5 my-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bolder mb-5">Listado de carreras</h2>
+                <p class="lead mb-0 fw-normal"><span class="fw-semibold">Nota: </span>Este test es una herramienta de apoyo para ayudarte a identificar áreas de interés profesional según tus gustos y preferencias. Sin embargo, sus resultados no son definitivos ni limitan tus opciones. La elección de una carrera es un proceso personal y este test solo es un punto de partida para guiarte en el camino.</p>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <!-- Aire Libre -->
+                <div id="carreras-libre" class="col-lg-6 mb-4 col-xl-4 d-flex">
+                    <div class="card mb-5 mb-xl-0">
+                        <div class="card-body p-5">
+                            <div class="mb-3 text-center">
+                                <span class="h2 fw-bold">Aire libre</span>
+                            </div>
+                            <p>Ejemplos de actividades: Organizar eventos escolares, llevar registros o archivos, ayudar
+                                en la administración de actividades escolares.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Ingenieros Agrónomos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Ingenieros Forestales
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Ingenieros de Minas
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Ingenieros Pesqueros
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Geólogos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Oficiales de Ejercito, Marina, Aviación, Policia
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Profesores de educación física
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Avicultores
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Area mecanica -->
+                <div id="carreras-mecanica" class="col-lg-6 mb-4 col-xl-4 d-flex">
+                    <div class="card mb-5 mb-xl-0">
+                        <div class="card-body p-5">
+                            <div class="mb-3 text-center">
+                                <span class="h2 fw-bold">Área Mecánica</span>
+                            </div>
+                            <p>Ejemplos de actividades: Reparar bicicletas, armar modelos a escala, participar en clases
+                                de robótica o talleres mecánicos. </p>
+                            <ul class="list-unstyled mb-4">
+                                <!-- <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>1 users</strong>
+                                    </li> -->
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Mecánico Constructivo
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Ingenieros Civiles
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Ingenieros Electricistas
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Ingenieros Industriales
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Ingenieros Mecánicos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Ingenieros Metalúrgicos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Ingenieros Químicos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Aviadores
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Técnicos en Radio y TV
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div id="carreras-calculo" class="col-lg-6 mb-4 col-xl-4 d-flex d-flex">
+                    <div class="card mb-5 mb-xl-0">
+                        <div class="card-body p-5">
+                            <div class="mb-3 text-center">
+                                <span class="h2 fw-bold">Área de Cálculo</span>
+                            </div>
+                            <p>Ejemplos de actividades: Resolver problemas de matemáticas, participar en concursos de
+                                cálculo, análisis de datos. </p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Auditores
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Contadores Públicos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Economistas
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Estadigrafos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Matemáticos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Funcionarios Bancarios
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div id="carreras-cientifica" class="col-lg-6 mb-4 col-xl-4 d-flex">
+                    <div class="card mb-5 mb-xl-0">
+                        <div class="card-body p-5">
+                            <div class="mb-3 text-center">
+                                <span class="h2 fw-bold">Área Científica</span>
+                            </div>
+                            <p>Ejemplos de actividades: Proyectos de laboratorio, investigaciones científicas, lectura
+                                de libros sobre ciencia, resolución de problemas matemáticos.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Antropólogos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Astrónomos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Biólogos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Físicos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Ingenieros Electrónicos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Ingenieros Químicos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Médicos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Odontólogos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Psicólogos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Químicos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Químicos Farmacéuticos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Técnicos de Laboratorio
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div id="carreras-persuasiva" class="col-lg-6 mb-4 col-xl-4 d-flex">
+                    <div class="card mb-5 mb-xl-0">
+                        <div class="card-body p-5">
+                            <div class="mb-3 text-center">
+                                <span class="h2 fw-bold">Área Persuasiva</span>
+                            </div>
+                            <p>Ejemplos de actividades: Organizar debates, participar en el consejo estudiantil,
+                                proyectos de ventas o campañas escolares.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Abogados
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Administradores de Negocios
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Diplomáticos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Periodistas
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Políticos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Agentes de Seguros
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Agentes de Publicidad
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Jefes de Ventas
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Locutores de Radio y TV
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div id="carreras-plastica" class="col-lg-6 mb-4 col-xl-4 d-flex">
+                    <div class="card mb-5 mb-xl-0">
+                        <div class="card-body p-5">
+                            <div class="mb-3 text-center">
+                                <span class="h2 fw-bold">Área Artística Plástica</span>
+                            </div>
+                            <p>Ejemplos de actividades: Dibujar, escribir cuentos o poemas, actuar en obras de teatro,
+                                tocar instrumentos musicales.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Arqutectos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Decoradores de Interiores
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Dibujantes y Pintores
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Escultores y Fotógrafos
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div id="carreras-literaria" class="col-lg-6 mb-4 col-xl-4 d-flex">
+                    <div class="card mb-5 mb-xl-0">
+                        <div class="card-body p-5">
+                            <div class="mb-3 text-center">
+                                <span class="h2 fw-bold">Área Literaria</span>
+                            </div>
+                            <p>Ejemplos de actividades: Participar en concursos de oratoria, escribir artículos o
+                                ensayos, leer novelas, organizar presentaciones en público.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Escritores
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Juristas
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Lingüistas
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Periodistas
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Profesores (Letras)
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Traductores
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div id="carreras-musical" class="col-lg-6 mb-4 col-xl-4 d-flex">
+                    <div class="card mb-5 mb-xl-0">
+                        <div class="card-body p-5">
+                            <div class="mb-3 text-center">
+                                <span class="h2 fw-bold">Área Musical</span>
+                            </div>
+                            <p>Ejemplos de actividades: Tocar instrumentos en una banda escolar, escribir canciones,
+                                participar en coros o grupos musicales.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Compositores
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Músicos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Profesores de Música
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Artistas de Ballet
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div id="carreras-social" class="col-lg-6 mb-4 col-xl-4 d-flex">
+                    <div class="card mb-5 mb-xl-0">
+                        <div class="card-body p-5">
+                            <div class="mb-3 text-center">
+                                <span class="h2 fw-bold">Área de Servicio Social</span>
+                            </div>
+                            <p>Ejemplos de actividades: Participar en voluntariados, ayudar a compañeros con tareas,
+                                organizar eventos para la comunidad.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Consejeros Vocacionales
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Enfermeros
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Médicos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Pedagógos en general
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Sacerdotes y Religiosos
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div id="carreras-oficina" class="col-lg-6 mb-4 col-xl-4 d-flex">
+                    <div class="card mb-5 mb-xl-0">
+                        <div class="card-body p-5">
+                            <div class="mb-3 text-center">
+                                <span class="h2 fw-bold">Área de Oficina</span>
+                            </div>
+                            <p>Ejemplos de actividades: Organizar eventos escolares, llevar registros o archivos, ayudar
+                                en la administración de actividades escolares.</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Archivistas
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Contadores
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Secretarios
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Taquígrafos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Bibliotecarios
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container px-5">
+            <p class="m-0 text-center text-white">&copy; Test de Kuder - Abril Carmona 2024</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
+</body>
+
+</html>
